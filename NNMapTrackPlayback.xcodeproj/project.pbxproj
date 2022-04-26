@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73FDEE4DE975E33178AE801B /* Pods_NNMapTrackPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628FE8E724BE36F7AECD36EB /* Pods_NNMapTrackPlayback.framework */; };
+		F35F60402814EB41006D58B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F603F2814EB41006D58B2 /* AppDelegate.m */; };
+		F35F60432814EB41006D58B2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F60422814EB41006D58B2 /* SceneDelegate.m */; };
+		F35F60462814EB41006D58B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F60452814EB41006D58B2 /* ViewController.m */; };
+		F35F60492814EB41006D58B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35F60472814EB41006D58B2 /* Main.storyboard */; };
+		F35F604B2814EB43006D58B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F604A2814EB43006D58B2 /* Assets.xcassets */; };
+		F35F604E2814EB43006D58B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35F604C2814EB43006D58B2 /* LaunchScreen.storyboard */; };
+		F35F60512814EB43006D58B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F60502814EB43006D58B2 /* main.m */; };
+		F35F605B2814EB43006D58B2 /* NNMapTrackPlaybackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F605A2814EB43006D58B2 /* NNMapTrackPlaybackTests.m */; };
+		F35F60652814EB43006D58B2 /* NNMapTrackPlaybackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F60642814EB43006D58B2 /* NNMapTrackPlaybackUITests.m */; };
+		F35F60672814EB43006D58B2 /* NNMapTrackPlaybackUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F60662814EB43006D58B2 /* NNMapTrackPlaybackUITestsLaunchTests.m */; };
+		F35F607B2814ED32006D58B2 /* CustomMAMultiPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F60752814ED32006D58B2 /* CustomMAMultiPolyline.m */; };
+		F35F607C2814ED32006D58B2 /* MATraceReplayOverlayRender.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F60792814ED32006D58B2 /* MATraceReplayOverlayRender.m */; };
+		F35F607D2814ED32006D58B2 /* MATraceReplayOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F607A2814ED32006D58B2 /* MATraceReplayOverlay.m */; };
+		F35F607F2814F58A006D58B2 /* TraceReplay.txt in Resources */ = {isa = PBXBuildFile; fileRef = F35F607E2814F58A006D58B2 /* TraceReplay.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F35F60572814EB43006D58B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35F60332814EB41006D58B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35F603A2814EB41006D58B2;
+			remoteInfo = NNMapTrackPlayback;
+		};
+		F35F60612814EB43006D58B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35F60332814EB41006D58B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35F603A2814EB41006D58B2;
+			remoteInfo = NNMapTrackPlayback;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A6DDE9C48A604CAC005F2FB /* Pods-NNMapTrackPlayback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNMapTrackPlayback.release.xcconfig"; path = "Target Support Files/Pods-NNMapTrackPlayback/Pods-NNMapTrackPlayback.release.xcconfig"; sourceTree = "<group>"; };
+		628FE8E724BE36F7AECD36EB /* Pods_NNMapTrackPlayback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNMapTrackPlayback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7292D7279BD28F9348A634 /* Pods-NNMapTrackPlayback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNMapTrackPlayback.debug.xcconfig"; path = "Target Support Files/Pods-NNMapTrackPlayback/Pods-NNMapTrackPlayback.debug.xcconfig"; sourceTree = "<group>"; };
+		F35F603B2814EB41006D58B2 /* NNMapTrackPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNMapTrackPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35F603E2814EB41006D58B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F35F603F2814EB41006D58B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F35F60412814EB41006D58B2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F35F60422814EB41006D58B2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F35F60442814EB41006D58B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F35F60452814EB41006D58B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F35F60482814EB41006D58B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F35F604A2814EB43006D58B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F35F604D2814EB43006D58B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F35F604F2814EB43006D58B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35F60502814EB43006D58B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F35F60562814EB43006D58B2 /* NNMapTrackPlaybackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNMapTrackPlaybackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35F605A2814EB43006D58B2 /* NNMapTrackPlaybackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNMapTrackPlaybackTests.m; sourceTree = "<group>"; };
+		F35F60602814EB43006D58B2 /* NNMapTrackPlaybackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNMapTrackPlaybackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35F60642814EB43006D58B2 /* NNMapTrackPlaybackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNMapTrackPlaybackUITests.m; sourceTree = "<group>"; };
+		F35F60662814EB43006D58B2 /* NNMapTrackPlaybackUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNMapTrackPlaybackUITestsLaunchTests.m; sourceTree = "<group>"; };
+		F35F60742814ED32006D58B2 /* MATraceReplayOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATraceReplayOverlay.h; sourceTree = "<group>"; };
+		F35F60752814ED32006D58B2 /* CustomMAMultiPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMAMultiPolyline.m; sourceTree = "<group>"; };
+		F35F60762814ED32006D58B2 /* MATraceReplayOverlay+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MATraceReplayOverlay+Addition.h"; sourceTree = "<group>"; };
+		F35F60772814ED32006D58B2 /* MATraceReplayOverlayRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATraceReplayOverlayRender.h; sourceTree = "<group>"; };
+		F35F60782814ED32006D58B2 /* CustomMAMultiPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMAMultiPolyline.h; sourceTree = "<group>"; };
+		F35F60792814ED32006D58B2 /* MATraceReplayOverlayRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATraceReplayOverlayRender.m; sourceTree = "<group>"; };
+		F35F607A2814ED32006D58B2 /* MATraceReplayOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATraceReplayOverlay.m; sourceTree = "<group>"; };
+		F35F607E2814F58A006D58B2 /* TraceReplay.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TraceReplay.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35F60382814EB41006D58B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FDEE4DE975E33178AE801B /* Pods_NNMapTrackPlayback.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F60532814EB43006D58B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F605D2814EB43006D58B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E9D67609B20531A9F14D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				628FE8E724BE36F7AECD36EB /* Pods_NNMapTrackPlayback.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E8D894BC641DAE93B997C23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE7292D7279BD28F9348A634 /* Pods-NNMapTrackPlayback.debug.xcconfig */,
+				2A6DDE9C48A604CAC005F2FB /* Pods-NNMapTrackPlayback.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F35F60322814EB41006D58B2 = {
+			isa = PBXGroup;
+			children = (
+				F35F603D2814EB41006D58B2 /* NNMapTrackPlayback */,
+				F35F60592814EB43006D58B2 /* NNMapTrackPlaybackTests */,
+				F35F60632814EB43006D58B2 /* NNMapTrackPlaybackUITests */,
+				F35F603C2814EB41006D58B2 /* Products */,
+				5E8D894BC641DAE93B997C23 /* Pods */,
+				39E9D67609B20531A9F14D82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F35F603C2814EB41006D58B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35F603B2814EB41006D58B2 /* NNMapTrackPlayback.app */,
+				F35F60562814EB43006D58B2 /* NNMapTrackPlaybackTests.xctest */,
+				F35F60602814EB43006D58B2 /* NNMapTrackPlaybackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35F603D2814EB41006D58B2 /* NNMapTrackPlayback */ = {
+			isa = PBXGroup;
+			children = (
+				F35F60732814ECD7006D58B2 /* TrackPlayBack */,
+				F35F603E2814EB41006D58B2 /* AppDelegate.h */,
+				F35F603F2814EB41006D58B2 /* AppDelegate.m */,
+				F35F60412814EB41006D58B2 /* SceneDelegate.h */,
+				F35F60422814EB41006D58B2 /* SceneDelegate.m */,
+				F35F60442814EB41006D58B2 /* ViewController.h */,
+				F35F60452814EB41006D58B2 /* ViewController.m */,
+				F35F60472814EB41006D58B2 /* Main.storyboard */,
+				F35F604A2814EB43006D58B2 /* Assets.xcassets */,
+				F35F604C2814EB43006D58B2 /* LaunchScreen.storyboard */,
+				F35F604F2814EB43006D58B2 /* Info.plist */,
+				F35F607E2814F58A006D58B2 /* TraceReplay.txt */,
+				F35F60502814EB43006D58B2 /* main.m */,
+			);
+			path = NNMapTrackPlayback;
+			sourceTree = "<group>";
+		};
+		F35F60592814EB43006D58B2 /* NNMapTrackPlaybackTests */ = {
+			isa = PBXGroup;
+			children = (
+				F35F605A2814EB43006D58B2 /* NNMapTrackPlaybackTests.m */,
+			);
+			path = NNMapTrackPlaybackTests;
+			sourceTree = "<group>";
+		};
+		F35F60632814EB43006D58B2 /* NNMapTrackPlaybackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F35F60642814EB43006D58B2 /* NNMapTrackPlaybackUITests.m */,
+				F35F60662814EB43006D58B2 /* NNMapTrackPlaybackUITestsLaunchTests.m */,
+			);
+			path = NNMapTrackPlaybackUITests;
+			sourceTree = "<group>";
+		};
+		F35F60732814ECD7006D58B2 /* TrackPlayBack */ = {
+			isa = PBXGroup;
+			children = (
+				F35F60762814ED32006D58B2 /* MATraceReplayOverlay+Addition.h */,
+				F35F60782814ED32006D58B2 /* CustomMAMultiPolyline.h */,
+				F35F60752814ED32006D58B2 /* CustomMAMultiPolyline.m */,
+				F35F60742814ED32006D58B2 /* MATraceReplayOverlay.h */,
+				F35F607A2814ED32006D58B2 /* MATraceReplayOverlay.m */,
+				F35F60772814ED32006D58B2 /* MATraceReplayOverlayRender.h */,
+				F35F60792814ED32006D58B2 /* MATraceReplayOverlayRender.m */,
+			);
+			path = TrackPlayBack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35F603A2814EB41006D58B2 /* NNMapTrackPlayback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35F606A2814EB43006D58B2 /* Build configuration list for PBXNativeTarget "NNMapTrackPlayback" */;
+			buildPhases = (
+				494D83866942BEC783AFAA1D /* [CP] Check Pods Manifest.lock */,
+				F35F60372814EB41006D58B2 /* Sources */,
+				F35F60382814EB41006D58B2 /* Frameworks */,
+				F35F60392814EB41006D58B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNMapTrackPlayback;
+			productName = NNMapTrackPlayback;
+			productReference = F35F603B2814EB41006D58B2 /* NNMapTrackPlayback.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F35F60552814EB43006D58B2 /* NNMapTrackPlaybackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35F606D2814EB43006D58B2 /* Build configuration list for PBXNativeTarget "NNMapTrackPlaybackTests" */;
+			buildPhases = (
+				F35F60522814EB43006D58B2 /* Sources */,
+				F35F60532814EB43006D58B2 /* Frameworks */,
+				F35F60542814EB43006D58B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35F60582814EB43006D58B2 /* PBXTargetDependency */,
+			);
+			name = NNMapTrackPlaybackTests;
+			productName = NNMapTrackPlaybackTests;
+			productReference = F35F60562814EB43006D58B2 /* NNMapTrackPlaybackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F35F605F2814EB43006D58B2 /* NNMapTrackPlaybackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35F60702814EB43006D58B2 /* Build configuration list for PBXNativeTarget "NNMapTrackPlaybackUITests" */;
+			buildPhases = (
+				F35F605C2814EB43006D58B2 /* Sources */,
+				F35F605D2814EB43006D58B2 /* Frameworks */,
+				F35F605E2814EB43006D58B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35F60622814EB43006D58B2 /* PBXTargetDependency */,
+			);
+			name = NNMapTrackPlaybackUITests;
+			productName = NNMapTrackPlaybackUITests;
+			productReference = F35F60602814EB43006D58B2 /* NNMapTrackPlaybackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35F60332814EB41006D58B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F35F603A2814EB41006D58B2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F35F60552814EB43006D58B2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F35F603A2814EB41006D58B2;
+					};
+					F35F605F2814EB43006D58B2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F35F603A2814EB41006D58B2;
+					};
+				};
+			};
+			buildConfigurationList = F35F60362814EB41006D58B2 /* Build configuration list for PBXProject "NNMapTrackPlayback" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35F60322814EB41006D58B2;
+			productRefGroup = F35F603C2814EB41006D58B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35F603A2814EB41006D58B2 /* NNMapTrackPlayback */,
+				F35F60552814EB43006D58B2 /* NNMapTrackPlaybackTests */,
+				F35F605F2814EB43006D58B2 /* NNMapTrackPlaybackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35F60392814EB41006D58B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35F604E2814EB43006D58B2 /* LaunchScreen.storyboard in Resources */,
+				F35F607F2814F58A006D58B2 /* TraceReplay.txt in Resources */,
+				F35F604B2814EB43006D58B2 /* Assets.xcassets in Resources */,
+				F35F60492814EB41006D58B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F60542814EB43006D58B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F605E2814EB43006D58B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		494D83866942BEC783AFAA1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NNMapTrackPlayback-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35F60372814EB41006D58B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35F607B2814ED32006D58B2 /* CustomMAMultiPolyline.m in Sources */,
+				F35F60462814EB41006D58B2 /* ViewController.m in Sources */,
+				F35F60402814EB41006D58B2 /* AppDelegate.m in Sources */,
+				F35F607C2814ED32006D58B2 /* MATraceReplayOverlayRender.m in Sources */,
+				F35F60512814EB43006D58B2 /* main.m in Sources */,
+				F35F607D2814ED32006D58B2 /* MATraceReplayOverlay.m in Sources */,
+				F35F60432814EB41006D58B2 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F60522814EB43006D58B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35F605B2814EB43006D58B2 /* NNMapTrackPlaybackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F605C2814EB43006D58B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35F60672814EB43006D58B2 /* NNMapTrackPlaybackUITestsLaunchTests.m in Sources */,
+				F35F60652814EB43006D58B2 /* NNMapTrackPlaybackUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F35F60582814EB43006D58B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35F603A2814EB41006D58B2 /* NNMapTrackPlayback */;
+			targetProxy = F35F60572814EB43006D58B2 /* PBXContainerItemProxy */;
+		};
+		F35F60622814EB43006D58B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35F603A2814EB41006D58B2 /* NNMapTrackPlayback */;
+			targetProxy = F35F60612814EB43006D58B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F35F60472814EB41006D58B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35F60482814EB41006D58B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F35F604C2814EB43006D58B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35F604D2814EB43006D58B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F35F60682814EB43006D58B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F35F60692814EB43006D58B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35F606B2814EB43006D58B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7292D7279BD28F9348A634 /* Pods-NNMapTrackPlayback.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RA8VL9W58;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NNMapTrackPlayback/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "3D Demo 需要定位权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F35F606C2814EB43006D58B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6DDE9C48A604CAC005F2FB /* Pods-NNMapTrackPlayback.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RA8VL9W58;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NNMapTrackPlayback/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "3D Demo 需要定位权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F35F606E2814EB43006D58B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RA8VL9W58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NN.test.NNMapTrackPlaybackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNMapTrackPlayback.app/NNMapTrackPlayback";
+			};
+			name = Debug;
+		};
+		F35F606F2814EB43006D58B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RA8VL9W58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NN.test.NNMapTrackPlaybackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNMapTrackPlayback.app/NNMapTrackPlayback";
+			};
+			name = Release;
+		};
+		F35F60712814EB43006D58B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RA8VL9W58;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NN.test.NNMapTrackPlaybackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NNMapTrackPlayback;
+			};
+			name = Debug;
+		};
+		F35F60722814EB43006D58B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RA8VL9W58;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NN.test.NNMapTrackPlaybackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NNMapTrackPlayback;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35F60362814EB41006D58B2 /* Build configuration list for PBXProject "NNMapTrackPlayback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35F60682814EB43006D58B2 /* Debug */,
+				F35F60692814EB43006D58B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35F606A2814EB43006D58B2 /* Build configuration list for PBXNativeTarget "NNMapTrackPlayback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35F606B2814EB43006D58B2 /* Debug */,
+				F35F606C2814EB43006D58B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35F606D2814EB43006D58B2 /* Build configuration list for PBXNativeTarget "NNMapTrackPlaybackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35F606E2814EB43006D58B2 /* Debug */,
+				F35F606F2814EB43006D58B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35F60702814EB43006D58B2 /* Build configuration list for PBXNativeTarget "NNMapTrackPlaybackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35F60712814EB43006D58B2 /* Debug */,
+				F35F60722814EB43006D58B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F35F60332814EB41006D58B2 /* Project object */;
+}
